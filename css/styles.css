@@ -1,0 +1,67 @@
+/******************/
+/* Name: Hannah O'Shea */
+/* Date : 11/21/2024 */
+/* File Name: styles.css */
+/******************/
+
+/* Colors to be used */ 
+
+/* Background / Body : #B7C2EA */
+/* Navigation colors: #1D466B <- Base navigation , #0C2C48 <- Text color  */
+
+/* Small note for the navigation fade, make there be some form of animation that places in order to transition one color from another */
+
+/* Transition colors: -> #0C2C48 <- base color ,  #1D466B <- text color */
+
+/********************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/**********************/
+/*=======NAV==========*/
+/*********************/
+
+
+
+
+/*======FLEXBOX=====*/
+
+.container {
+    display: grid;
+}
+
+
+
+/*===MEDIA QUERIES===*/
+
+/* Tablet Media Query */
+@media (min-width: 769px) {
+    .header,
+    .mainNavigation {
+        display:flex;
+    }
+}
+
+/* Desktop Media Query */
+
+@media (min-width: 1025px){
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+ 
+
+
+
+
+
+
+
+
