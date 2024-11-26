@@ -15,17 +15,111 @@
 
 /********************/
 
+
+/* Fonts: Sour Gummy & Barlow Condensed */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+
+/********************/
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+
+/**********************/
+/*===== HERO / HEADER IMAGE ======*/
+
+/* Save for when image is downloaded, use for reference  
+    header {
+        background-image: ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height:450px;
+        padding: 0%;
+        margin: 0px auto 0px 0px;
+
+} */
+
+
+
+
+
+
 /**********************/
 /*=======NAV==========*/
 /*********************/
 
+nav {
+    display: inline-block;
+    color: #1D466B;
+    text-align: center;
+}
 
+nav,
+ul,
+li,
+.mainNavigation {
+    list-style-type: none;
+    text-align: center;
+    color:#0C2C48;
+}
+
+.mainNavigation {
+    margin-top: 5px;
+    font-size: 1.5em;
+    
+}
+
+.mainNavigation a {
+    padding: 20px 25px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.mainNavigation a:hover {
+    transition: .45s ease-in;
+    background-color:#355b7c;
+    color:#fafcfd;
+}
+ 
+.headTitle {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+/*=====REGULAR WEBSITE CSS====*/
+
+body {
+    background-color: #B7C2EA ;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+header,
+h1 {
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color:#0C2C48;
+}
+
+p {
+    margin: 1.5em;
+    font-family: "Sour Gummy", sans-serif;
+    color: #0C2C48
+}
 
 
 /*======FLEXBOX=====*/
@@ -34,7 +128,184 @@
     display: grid;
 }
 
+.one {
+    min-height: 150px; 
+}
 
+.one h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.one p {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.two {
+    min-height: 150px; 
+}
+.two h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.two p {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.three {
+    min-height: 150px; 
+}
+.three h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.three p {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.four {
+    min-height: 150px; 
+}
+.four h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.four p {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.five {
+    min-height: 150px; 
+}
+.five h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.five p {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.six {
+    min-height: 150px; 
+}
+.six h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.six p {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.seven {
+    min-height: 150px; 
+}
+.seven h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.seven p {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.eight {
+    min-height: 150px; 
+}
+.eight h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.eight p {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.nine {
+    min-height: 150px; 
+}
+.nine h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.nine p {
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+/* CARD CSS */
+
+
+.cards { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 325px;
+    border-radius: 10px;
+    transition: 0.10s ease-in;
+    margin-bottom: 5em;
+}
+
+.card-content {
+    padding: 1.5em;
+    margin-bottom: 1.3em;
+}
+a ,
+.theCardButton {
+    display: inline-block;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.10s ease;
+
+}
 
 /*===MEDIA QUERIES===*/
 
@@ -56,7 +327,11 @@
 }
 
 
- 
+ /* Footer CSS */
+
+ footer {
+    text-align: center;
+ }
 
 
 
