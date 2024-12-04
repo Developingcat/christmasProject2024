@@ -50,11 +50,6 @@
 
 } */
 
-
-
-
-
-
 /**********************/
 /*=======NAV==========*/
 /*********************/
@@ -74,10 +69,19 @@ li,
     color:#0C2C48;
 }
 
+nav,
+ul,
+li,
+.mainNavigation a{
+    list-style-type: none;
+    text-align: center;
+    color:#0C2C48;
+}
+
+
 .mainNavigation {
     margin-top: 5px;
     font-size: 1.5em;
-    
 }
 
 .mainNavigation a {
@@ -113,6 +117,7 @@ h1 {
     text-align: center;
     font-size: 3em;
     color:#0C2C48;
+    background-color: #4c7090;
 }
 
 p {
@@ -295,8 +300,7 @@ p {
 .card-content {
     padding: 1.5em;
     margin-bottom: 1.3em;
-}
-a ,
+} 
 .theCardButton {
     display: inline-block;
     border: none;
@@ -304,8 +308,15 @@ a ,
     border-radius: 5px;
     text-decoration: none;
     transition: 0.10s ease;
-
+    color: #3d4079;
+    list-style-type: none;
 }
+.theCardButton a:hover{
+    color: #335598 ;
+    background-color: black;
+}
+
+
 
 /*===MEDIA QUERIES===*/
 
