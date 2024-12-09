@@ -123,6 +123,7 @@ p {
 
 
 
+
 /*======FLEXBOX=====*/
 
 .container {
@@ -131,6 +132,12 @@ p {
 
 .one {
     min-height: 150px; 
+    background-image: url(/images/imageOneForChristmasProject.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-x: center ;
+    background-position-y: bottom;
+
 }
 
 .one h1 {
