@@ -49,7 +49,6 @@
 /*********************/
 
 nav {
-    display: justify;
     color: #1D466B;
     text-align: center;
     list-style-type: none;
@@ -59,7 +58,6 @@ nav,
 ul,
 li,
 .mainNavigation {
-    display: justify;
     color:#0C2C48;
     list-style-type: none;
 }
@@ -124,13 +122,42 @@ p {
 
 
 
-/*======FLEXBOX=====*/
+/*======Grid=====*/
 
 .container {
-    display: -ms-flexbox;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(230px, 1fr));
+    grid-gap: 20px;
 }
 
-.one {
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 1px solid #fff;
+}
+
+.card img {
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+
+.card header {
+    background-color: #999;
+    color: #333;
+    padding: 5%
+}
+
+.card footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5%
+}
+
+
+
+
+/* .one {
     min-height: 150px; 
     background-image: url(/images/imageOneForChristmasProject.jpg);
     background-repeat: no-repeat;
@@ -282,7 +309,7 @@ p {
     margin-top: 1.5em;
 }
 
-/* CARD CSS */
+CARD CSS
 
 
 .cards { 
@@ -331,7 +358,7 @@ p{
 .theCardButton a:hover{
     color: #335598 ;
     background-color: black;
-}
+} */
 
 
 
@@ -339,63 +366,13 @@ p{
 
 /* Tablet Media Query */
 @media (min-width: 769px) {
-    .header,
-    .mainNavigation {
-        display:flex;
-    }
-    .header {
-        flex-direction: column;
-        align-items: center;
-        .header {
-            width: 80%;
-            margin: 0 auto;
-            max-width: 1150px;
-        }
-    }
-    .container {
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: minmax(100px, auto) ;
-    }
 
-    .one {
-        grid-column: 1/3;
-    }
-    .two {
-        grid-column: 1/2;
-        grid-row: 2/4;
-    }
-    .three {
-        grid-column: 2/3;
-        grid-row: 2/4;
-    }
-    .four {
-        grid-column: 1/3;
-    }
-    .five {
-        grid-column: 1/4;
-    }
-    .six {
-        grid-column: 1/2;
-    }
-    .seven {
-        grid-column: 2/4;
-    }
-    .eight {
-        grid-column: 1/5;
-    }
-    .nine {
-        grid-column: 1/6;
-
-    }
 }
 
 /* Desktop Media Query */
 
 @media (min-width: 1025px){
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+
 }
 
 
