@@ -94,7 +94,7 @@ li,
 .mainNavigation a {
     padding: 20px 25px;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: center;
 }
 
 .mainNavigation a:hover {
@@ -149,10 +149,10 @@ p {
 }
 
 
-body, 
+/* body, 
 p {
    text-align: justify;
-}
+} */
 
 .imageSizing { 
     max-height: 500px;
@@ -220,27 +220,35 @@ p {
     padding: 5%
 }
 
-.card footer {
+
+.theCardButton footer {
     background-color: #94764f;
     color: #815218;
-    padding: 5%
+    padding: 5%;
+    text-align: center;
 }
 
 .theCardButton {
-    display: inline-block;
+    display: block;
     color: #8a5c1a;
-    background-color: #F1C562;
-    border: none;
-    padding: 10px 20px;
+    background-color: blue; /*#F1C562;*/
+    border: 1px solid black;
+    padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
     transition: .15s ease-in-out;
+}
+
+.theCardButton a {
+    margin-left: 3em;
 }
 
 .theCardButton:hover {
     background-color: #23436a ;
     color: #ccd7e4;
 }
+
+
 
 
 
@@ -474,13 +482,10 @@ p{
 
  /* Footer CSS */
 
-
- footer,
- p {
+footer p {
     text-align: center;
-    font-family: "Sour Gummy", sans-serif, 'Gill Sans';
- }
- 
+}
+
 
  
  
