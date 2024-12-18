@@ -225,16 +225,15 @@ p {
     background-color: #94764f;
     color: #815218;
     padding: 5%;
-    text-align: center;
 }
 
 .theCardButton {
     display: block;
-    color: #8a5c1a;
-    background-color: blue; /*#F1C562;*/
-    border: 1px solid black;
+    background-color: #e5ba6a;
+    color: #a16b36;
     padding: 5px 10px;
     border-radius: 5px;
+    text-align: center;
     text-decoration: none;
     transition: .15s ease-in-out;
 }
